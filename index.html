@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Aparcaments de bicis a la Marina Alta</title>
+
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+
+
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.0/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.0/dist/MarkerCluster.Default.css" />
+
+
+<script src="https://unpkg.com/leaflet.markercluster@1.4.0/dist/leaflet.markercluster.js"></script>
+
+
+<script src="bicisclients.geojson"></script>
+<script src="bicisdebades.geojson"></script>
+<style>
+body {margin: 0; pad: 0; }
+#map {position: absolute; top: 0; bottom: 0; width: 100%;}
+</style>
+
+</head>
+
+<body>
+
+    <div id="map"></div>
+
+<script>
+
+var osmcarto = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+			attribution: 'Dades &copy; <a href="http://osm.org/copyright" target="blanck">Colaboradores de OpenStreetMap</a> (<a href="http://www.openstreetmap.org/copyright" target="blanck">ODbL</a>) | Tesseles <a href="https://github.com/gravitystorm/openstreetmap-carto" target="blanck">OSM Carto</a> | Icones <a href="https://github.com/streetcomplete/StreetComplete/blob/master/res/graphics/pins/car_air_compressor.svg" target="blanck">westnordost</a> '
+		}),
+		pnoa = L.tileLayer.wms("http://www.ign.es/wms-inspire/pnoa-ma?SERVICE=WMS&", {
+			layers: "OI.OrthoimageCoverage",
+			transparent: true,
+			format: 'image/jpeg',
+			version: '1.3.0',
+			attribution: 'Ortofotos <a href="http://www.scne.es/productos.html#OrtoPNOA" target="blanck">PNOA</a> \u00a9 <a href="http://www.ign.es" target="blanck">Instituto Geográfico Nacional de España</a> (<a href="https://creativecommons.org/licenses/by/4.0/legalcode.es" target="blanck">CC BY 4.0</a>)'
+		});
+		icv = L.tileLayer("https://terramapas.icv.gva.es/0202_2021CVAL0025_3857/wmts/1.0.0/01_8bits_01_RGB_05_PNG/default/GMEPSG3857/{z}/{y}/{x}.png", {
+			attribution: 'Ortofotografia \u00a9 <a href="https://icv.gva.es/va/" target="blanck">Institut Cartogràfic Valencià</a> (<a href="https://creativecommons.org/licenses/by/4.0/legalcode.es" target="blanck">CC BY 4.0</a>)'
+		});
+
+	var map = L.map('map', {
+		center: [38.70, 0.1086],
+		zoom: 11,
+		layers: [osmcarto]
+	});
+
+	var baseLayers = {
+		"Carrerer (OSM)": osmcarto,
+		"Ortofotos (ICV)": icv,
+		"Ortofotos (IGN)": pnoa
+	};
+
+	L.control.layers(baseLayers).addTo(map);
+
+		
+		var paidcompressor = L.icon({
+			iconUrl: 'markerb.png',
+			iconSize: [37,37]
+			});;
+
+	
+		var compressordepago = L.geoJson(paid, {
+			pointToLayer: function(feature,latlng){
+			var marker = L.marker(latlng,{icon: paidcompressor});
+			marker.bindPopup('<h1>'+feature.properties.operator+'</h1><p>Capacitat: '+feature.properties.capacity+'</p>');
+			return marker;
+			}});
+
+	
+	var freecompressor = L.icon({
+			iconUrl: 'markerw.png',
+			iconSize: [37,37]
+			});;
+
+	
+		var compressorfree = L.geoJson(free, {
+			pointToLayer: function(feature,latlng){
+			var marker = L.marker(latlng,{icon: freecompressor});
+			marker.bindPopup('<h1>'+feature.properties.operator+'</h1><p>Capacitat: '+feature.properties.capacity+'</p>');
+			return marker;
+			}});
+
+	 		
+		var clusters = L.markerClusterGroup({ showCoverageOnHover: false });
+		clusters.addLayer(compressorfree);
+		clusters.addLayer(compressordepago);
+		map.addLayer(clusters);
+</script>
+
+</body>
+
+</html>

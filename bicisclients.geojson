@@ -1,0 +1,356 @@
+var paid =
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-08-22T00:45:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5334682721",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "10",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1107591,
+          38.8327456
+        ]
+      },
+      "id": "node/5334682721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5873931211",
+        "access": "customers",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0572148,
+          38.858112
+        ]
+      },
+      "id": "node/5873931211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6694177023",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "10",
+        "colour": "brown",
+        "fee": "no",
+        "material": "wood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0125086,
+          38.8702695
+        ]
+      },
+      "id": "node/6694177023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9312837619",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "8",
+        "covered": "no",
+        "operator": "Mercadona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1046916,
+          38.8351979
+        ]
+      },
+      "id": "node/9312837619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9388026456",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "23",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1143828,
+          38.8334995
+        ]
+      },
+      "id": "node/9388026456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9420685616",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "10",
+        "covered": "yes",
+        "fee": "no",
+        "operator": "Decathlon",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.018028,
+          38.8186253
+        ]
+      },
+      "id": "node/9420685616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9459285215",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "6",
+        "covered": "no",
+        "operator": "Carrefour"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0944624,
+          38.8374825
+        ]
+      },
+      "id": "node/9459285215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9561228577",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1038842,
+          38.834961
+        ]
+      },
+      "id": "node/9561228577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9567214313",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "6",
+        "covered": "no",
+        "operator": "Gym21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0878435,
+          38.8377119
+        ]
+      },
+      "id": "node/9567214313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9611760480",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "capacity": "6",
+        "covered": "no",
+        "fee": "no",
+        "operator": "Farmaondara",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0239741,
+          38.8175303
+        ]
+      },
+      "id": "node/9611760480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9663775665",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "6",
+        "covered": "no",
+        "fee": "no",
+        "operator": "masymas",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0192557,
+          38.8496461
+        ]
+      },
+      "id": "node/9663775665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9693141192",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "2",
+        "covered": "no",
+        "fee": "no",
+        "operator": "Farmàcia Nàutic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.117357,
+          38.8365554
+        ]
+      },
+      "id": "node/9693141192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9695748583",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "covered": "no",
+        "operator": "Consum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1111022,
+          38.8318376
+        ]
+      },
+      "id": "node/9695748583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9731113907",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "operator": "Cafè Soles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0908822,
+          38.8496492
+        ]
+      },
+      "id": "node/9731113907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9733299885",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "3",
+        "covered": "no",
+        "operator": "Nàutica Noguera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.11403,
+          38.8400313
+        ]
+      },
+      "id": "node/9733299885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9748737240",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "covered": "yes",
+        "operator": "HLA San Carlos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0931751,
+          38.8377162
+        ]
+      },
+      "id": "node/9748737240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9748745203",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "covered": "no",
+        "operator": "Ajuntament de Dénia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0935422,
+          38.8382723
+        ]
+      },
+      "id": "node/9748745203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9750340116",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "operator": "Ona Ogisaka Garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1201757,
+          38.8324036
+        ]
+      },
+      "id": "node/9750340116"
+    }
+  ]
+}
