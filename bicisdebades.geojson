@@ -3,7 +3,7 @@ var free =
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2022-08-22T00:24:39Z",
+  "timestamp": "2022-08-24T00:33:51Z",
   "features": [
     {
       "type": "Feature",
@@ -149,10 +149,13 @@ var free =
       "type": "Feature",
       "properties": {
         "@id": "node/4980874865",
+        "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
         "capacity": "6",
-        "covered": "no"
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament de Dénia"
       },
       "geometry": {
         "type": "Point",
@@ -378,13 +381,16 @@ var free =
       "type": "Feature",
       "properties": {
         "@id": "node/5588818532",
-        "amenity": "bicycle_parking"
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "fee": "no",
+        "operator": "Ajuntament de Teulada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.1313876,
-          38.6877723
+          0.1313122,
+          38.6877607
         ]
       },
       "id": "node/5588818532"
@@ -428,9 +434,12 @@ var free =
       "type": "Feature",
       "properties": {
         "@id": "node/5873931209",
+        "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
-        "covered": "no"
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament de Dénia"
       },
       "geometry": {
         "type": "Point",
@@ -722,24 +731,12 @@ var free =
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/9420774686",
-        "amenity": "bicycle_parking"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.0240415,
-          38.8179661
-        ]
-      },
-      "id": "node/9420774686"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/9421095544",
+        "access": "yes",
         "amenity": "bicycle_parking",
-        "covered": "no"
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament de Beniarbeig"
       },
       "geometry": {
         "type": "Point",
@@ -754,7 +751,10 @@ var free =
       "type": "Feature",
       "properties": {
         "@id": "node/9421719001",
-        "amenity": "bicycle_parking"
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "fee": "no",
+        "operator": "Ajuntament d'Ondara"
       },
       "geometry": {
         "type": "Point",
@@ -850,13 +850,18 @@ var free =
       "type": "Feature",
       "properties": {
         "@id": "node/9481682113",
-        "amenity": "bicycle_parking"
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament de Castell de Castells"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.1956169,
-          38.7265835
+          -0.1956662,
+          38.7266027
         ]
       },
       "id": "node/9481682113"
@@ -948,7 +953,9 @@ var free =
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
         "capacity": "4",
-        "covered": "no"
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament de Pedreguer"
       },
       "geometry": {
         "type": "Point",
@@ -1189,7 +1196,9 @@ var free =
         "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
-        "covered": "no"
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament de Dénia"
       },
       "geometry": {
         "type": "Point",
@@ -1228,7 +1237,9 @@ var free =
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
         "capacity": "6",
-        "covered": "no"
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament dels Poblets"
       },
       "geometry": {
         "type": "Point",
@@ -1303,10 +1314,13 @@ var free =
       "type": "Feature",
       "properties": {
         "@id": "node/9613123039",
+        "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
         "capacity": "4",
-        "covered": "no"
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament de Pego"
       },
       "geometry": {
         "type": "Point",
@@ -1531,10 +1545,13 @@ var free =
       "type": "Feature",
       "properties": {
         "@id": "node/9661358081",
+        "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
         "capacity": "5",
-        "covered": "no"
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament dels Poblets"
       },
       "geometry": {
         "type": "Point",
@@ -1553,7 +1570,9 @@ var free =
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
         "capacity": "6",
-        "covered": "no"
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament dels Poblets"
       },
       "geometry": {
         "type": "Point",
@@ -1572,7 +1591,9 @@ var free =
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
         "capacity": "10",
-        "covered": "no"
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament dels Poblets"
       },
       "geometry": {
         "type": "Point",
@@ -1591,7 +1612,9 @@ var free =
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
         "capacity": "6",
-        "covered": "no"
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament dels Poblets"
       },
       "geometry": {
         "type": "Point",
@@ -2135,10 +2158,13 @@ var free =
       "type": "Feature",
       "properties": {
         "@id": "node/9833979751",
+        "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
         "capacity": "4",
-        "covered": "no"
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament dels Poblets"
       },
       "geometry": {
         "type": "Point",
@@ -2193,7 +2219,10 @@ var free =
       "type": "Feature",
       "properties": {
         "@id": "node/9928290269",
-        "amenity": "bicycle_parking"
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "fee": "no",
+        "operator": "Ajuntament de Dénia"
       },
       "geometry": {
         "type": "Point",
@@ -2242,6 +2271,25 @@ var free =
         ]
       },
       "id": "node/9948994742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9973606947",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "fee": "no",
+        "operator": "Ajuntament del Verger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0079858,
+          38.8474507
+        ]
+      },
+      "id": "node/9973606947"
     }
   ]
 }

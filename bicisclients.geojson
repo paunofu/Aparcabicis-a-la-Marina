@@ -3,7 +3,7 @@ var paid =
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2022-08-22T00:45:02Z",
+  "timestamp": "2022-08-24T00:35:47Z",
   "features": [
     {
       "type": "Feature",
@@ -13,7 +13,9 @@ var paid =
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
         "capacity": "10",
-        "covered": "no"
+        "covered": "no",
+        "fee": "no",
+        "operator": "Lidl"
       },
       "geometry": {
         "type": "Point",
@@ -29,7 +31,9 @@ var paid =
       "properties": {
         "@id": "node/5873931211",
         "access": "customers",
-        "amenity": "bicycle_parking"
+        "amenity": "bicycle_parking",
+        "fee": "no",
+        "operator": "Consum"
       },
       "geometry": {
         "type": "Point",
@@ -50,7 +54,8 @@ var paid =
         "capacity": "10",
         "colour": "brown",
         "fee": "no",
-        "material": "wood"
+        "material": "wood",
+        "operator": "Los Baños Sunshine Bar"
       },
       "geometry": {
         "type": "Point",
@@ -89,7 +94,8 @@ var paid =
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
         "capacity": "23",
-        "covered": "no"
+        "covered": "no",
+        "operator": "Institut d'Eduació Secundària Sorts de la Mar"
       },
       "geometry": {
         "type": "Point",
@@ -121,6 +127,24 @@ var paid =
         ]
       },
       "id": "node/9420685616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9420774686",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "fee": "no",
+        "operator": "Centre Comercial Portal de la Marina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0240415,
+          38.8179661
+        ]
+      },
+      "id": "node/9420774686"
     },
     {
       "type": "Feature",
@@ -323,6 +347,7 @@ var paid =
         "@id": "node/9748745203",
         "access": "customers",
         "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
         "covered": "no",
         "operator": "Ajuntament de Dénia"
       },
