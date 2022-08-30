@@ -3,7 +3,7 @@ var free =
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2022-08-24T00:33:51Z",
+  "timestamp": "2022-08-30T07:53:24Z",
   "features": [
     {
       "type": "Feature",
@@ -948,27 +948,6 @@ var free =
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/9501781253",
-        "access": "yes",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "wall_loops",
-        "capacity": "4",
-        "covered": "no",
-        "fee": "no",
-        "operator": "Ajuntament de Pedreguer"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.0331128,
-          38.7951372
-        ]
-      },
-      "id": "node/9501781253"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/9502616119",
         "access": "yes",
         "amenity": "bicycle_parking",
@@ -1812,6 +1791,7 @@ var free =
         "addr:street": "Carrer de Sant Pere",
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
+        "capacity": "12",
         "covered": "no",
         "operator": "Ajuntament de Dénia"
       },
@@ -2290,6 +2270,24 @@ var free =
         ]
       },
       "id": "node/9973606947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9980659430",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "fee": "no",
+        "operator": "Ajuntament d'Ondara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0222402,
+          38.8160386
+        ]
+      },
+      "id": "node/9980659430"
     }
   ]
 }
