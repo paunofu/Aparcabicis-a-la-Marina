@@ -63,37 +63,37 @@ var osmcarto = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 	L.control.layers(baseLayers).addTo(map);
 
 		
-		var paidcompressor = L.icon({
+		var marcadormarro = L.icon({
 			iconUrl: 'markerb.png',
 			iconSize: [37,37]
 			});;
 
 	
-		var compressordepago = L.geoJson(paid, {
+		var biciscustomers = L.geoJson(paid, {
 			pointToLayer: function(feature,latlng){
-			var marker = L.marker(latlng,{icon: paidcompressor});
+			var marker = L.marker(latlng,{icon: marcadormarro});
 			marker.bindPopup('<h1>'+feature.properties.operator+'</h1><p>Capacitat: '+feature.properties.capacity+'</p>');
 			return marker;
 			}});
 
 	
-	var freecompressor = L.icon({
+	var marcadorblanc = L.icon({
 			iconUrl: 'markerw.png',
 			iconSize: [37,37]
 			});;
 
 	
-		var compressorfree = L.geoJson(free, {
+		var bicisajuntament = L.geoJson(free, {
 			pointToLayer: function(feature,latlng){
-			var marker = L.marker(latlng,{icon: freecompressor});
+			var marker = L.marker(latlng,{icon: marcadorblanc});
 			marker.bindPopup('<h1>'+feature.properties.operator+'</h1><p>Capacitat: '+feature.properties.capacity+'</p>');
 			return marker;
 			}});
 
 	 		
 		var clusters = L.markerClusterGroup({ showCoverageOnHover: false });
-		clusters.addLayer(compressorfree);
-		clusters.addLayer(compressordepago);
+		clusters.addLayer(bicisajuntament);
+		clusters.addLayer(biciscustomers);
 		map.addLayer(clusters);
 </script>
 
