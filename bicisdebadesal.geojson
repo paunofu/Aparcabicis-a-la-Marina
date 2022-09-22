@@ -1,0 +1,75 @@
+var free=
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-09-22T08:22:29Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7069162550",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.499012,
+          38.6830262
+        ]
+      },
+      "id": "node/7069162550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7627210290",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "ground_slots"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5198944,
+          38.6783455
+        ]
+      },
+      "id": "node/7627210290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8308822177",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "covered": "no",
+        "fee": "no",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4947303,
+          38.686598
+        ]
+      },
+      "id": "node/8308822177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9793856754",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5064786,
+          38.6839505
+        ]
+      },
+      "id": "node/9793856754"
+    }
+  ]
+}
