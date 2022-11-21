@@ -3,7 +3,7 @@ var free =
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2022-08-30T07:53:24Z",
+  "timestamp": "2022-11-21T22:52:54Z",
   "features": [
     {
       "type": "Feature",
@@ -174,6 +174,7 @@ var free =
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
         "covered": "no",
+        "fee": "no",
         "image": "https://storage13.openstreetcam.org/files/photo/2020/7/25/lth/2814006_6e48b_5f1c535896248.jpg",
         "operator": "Ajuntament de Dénia",
         "survey:date": "2020-07-25"
@@ -181,8 +182,8 @@ var free =
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.1069513,
-          38.8469544
+          0.106926,
+          38.8469633
         ]
       },
       "id": "node/4980938928"
@@ -815,7 +816,10 @@ var free =
         "bicycle_parking": "stands",
         "capacity": "6",
         "covered": "no",
-        "operator": "Ajuntament de Dénia"
+        "fee": "no",
+        "indoor": "no",
+        "operator": "Ajuntament de Dénia",
+        "operator:type": "government"
       },
       "geometry": {
         "type": "Point",
@@ -1317,6 +1321,7 @@ var free =
         "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
+        "capacity": "12",
         "covered": "no",
         "operator": "Ajuntament de Dénia"
       },
@@ -1668,6 +1673,8 @@ var free =
         "@id": "node/9677812545",
         "access": "yes",
         "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "6",
         "covered": "no",
         "fee": "no",
         "operator": "Ajuntament de Dénia",
@@ -1870,6 +1877,7 @@ var free =
         "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
+        "capacity": "6",
         "covered": "no",
         "operator": "Ajuntament de Dénia"
       },
@@ -2288,6 +2296,61 @@ var free =
         ]
       },
       "id": "node/9980659430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10129422707",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1067692,
+          38.8437839
+        ]
+      },
+      "id": "node/10129422707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10148180110",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "building",
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament de Dénia",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1024129,
+          38.8389558
+        ]
+      },
+      "id": "node/10148180110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10200597245",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "20",
+        "covered": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1137062,
+          38.8457555
+        ]
+      },
+      "id": "node/10200597245"
     }
   ]
 }

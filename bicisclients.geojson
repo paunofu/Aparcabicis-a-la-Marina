@@ -3,7 +3,7 @@ var paid =
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2022-08-30T07:49:21Z",
+  "timestamp": "2022-11-21T23:02:09Z",
   "features": [
     {
       "type": "Feature",
@@ -100,8 +100,8 @@ var paid =
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.1143828,
-          38.8334995
+          0.1143803,
+          38.8334794
         ]
       },
       "id": "node/9388026456"
@@ -396,6 +396,84 @@ var paid =
         ]
       },
       "id": "node/9975271650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10189371564",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "6",
+        "covered": "no",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0363828,
+          38.7965512
+        ]
+      },
+      "id": "node/10189371564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10189371565",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "covered": "yes",
+        "fee": "no",
+        "operator": "masymas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0392038,
+          38.7997727
+        ]
+      },
+      "id": "node/10189371565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10208383645",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "covered": "yes",
+        "fee": "no",
+        "operator": "LIDL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0237428,
+          38.817351
+        ]
+      },
+      "id": "node/10208383645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10208383650",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "covered": "yes",
+        "fee": "no",
+        "operator": "ALDI",
+        "supervised": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0229545,
+          38.8167406
+        ]
+      },
+      "id": "node/10208383650"
     }
   ]
 }
