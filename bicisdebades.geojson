@@ -3,7 +3,11 @@ var free =
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+<<<<<<< Updated upstream
   "timestamp": "2022-11-21T22:52:54Z",
+=======
+  "timestamp": "2022-12-10T03:16:38Z",
+>>>>>>> Stashed changes
   "features": [
     {
       "type": "Feature",
@@ -1267,8 +1271,8 @@ var free =
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.1027659,
-          38.8399751
+          0.1027835,
+          38.8399529
         ]
       },
       "id": "node/9598366597"
@@ -1454,7 +1458,10 @@ var free =
         "@id": "node/9652708522",
         "access": "yes",
         "amenity": "bicycle_parking",
-        "operator": "Ajuntament de Dénia"
+        "bicycle_parking": "stands",
+        "mapillary": "608793353874171",
+        "operator": "Ajuntament de Dénia",
+        "survey:date": "2021-11-10"
       },
       "geometry": {
         "type": "Point",
@@ -2351,6 +2358,31 @@ var free =
         ]
       },
       "id": "node/10200597245"
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10237976804",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "10",
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament d'Ondara",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0171253,
+          38.8324952
+        ]
+      },
+      "id": "node/10237976804"
+>>>>>>> Stashed changes
     }
   ]
 }

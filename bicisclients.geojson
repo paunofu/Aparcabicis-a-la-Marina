@@ -3,7 +3,11 @@ var paid =
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+<<<<<<< Updated upstream
   "timestamp": "2022-11-21T23:02:09Z",
+=======
+  "timestamp": "2022-12-10T03:19:38Z",
+>>>>>>> Stashed changes
   "features": [
     {
       "type": "Feature",
@@ -210,6 +214,7 @@ var paid =
         "@id": "node/9611760480",
         "access": "customers",
         "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
         "capacity": "6",
         "covered": "no",
         "fee": "no",
@@ -442,6 +447,10 @@ var paid =
         "@id": "node/10208383645",
         "access": "customers",
         "amenity": "bicycle_parking",
+<<<<<<< Updated upstream
+=======
+        "bicycle_parking": "stands",
+>>>>>>> Stashed changes
         "covered": "yes",
         "fee": "no",
         "operator": "LIDL"
@@ -474,6 +483,29 @@ var paid =
         ]
       },
       "id": "node/10208383650"
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10249206836",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "6",
+        "covered": "no",
+        "image": "https://i.imgur.com/u9zXOrY.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1683126,
+          38.7891166
+        ]
+      },
+      "id": "node/10249206836"
+>>>>>>> Stashed changes
     }
   ]
 }
