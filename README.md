@@ -1,10 +1,7 @@
 # Aparcabicis a la Marina. Per què?
 Davant la mancança d'un mapa o dades públiques d'estacionaments per a bicicletes per part dels ajuntaments de la comarca, he decidit crear un mapa on no només mostre els aparcaments públics sinó que també els dels comerços.
-<<<<<<< Updated upstream
-Ultima actualització el 22-11-2022 a les 00:04:00 horari d'hivern de València
-=======
+
 Ultima actualització el 10-12-2022 a les 04:22:00
->>>>>>> Stashed changes
 
 # Copyright 
 

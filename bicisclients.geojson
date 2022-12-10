@@ -3,11 +3,7 @@ var paid =
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-<<<<<<< Updated upstream
-  "timestamp": "2022-11-21T23:02:09Z",
-=======
   "timestamp": "2022-12-10T03:19:38Z",
->>>>>>> Stashed changes
   "features": [
     {
       "type": "Feature",
@@ -447,10 +443,7 @@ var paid =
         "@id": "node/10208383645",
         "access": "customers",
         "amenity": "bicycle_parking",
-<<<<<<< Updated upstream
-=======
         "bicycle_parking": "stands",
->>>>>>> Stashed changes
         "covered": "yes",
         "fee": "no",
         "operator": "LIDL"
@@ -483,8 +476,6 @@ var paid =
         ]
       },
       "id": "node/10208383650"
-<<<<<<< Updated upstream
-=======
     },
     {
       "type": "Feature",
@@ -505,7 +496,6 @@ var paid =
         ]
       },
       "id": "node/10249206836"
->>>>>>> Stashed changes
     }
   ]
 }
