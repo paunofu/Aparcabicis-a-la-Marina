@@ -3,7 +3,7 @@ var free =
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2022-12-10T03:32:53Z",
+  "timestamp": "2023-01-12T15:12:09Z",
   "features": [
     {
       "type": "Feature",
@@ -643,8 +643,8 @@ var free =
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.1051946,
-          38.8360877
+          0.1052127,
+          38.8360956
         ]
       },
       "id": "node/9387998334"
@@ -774,6 +774,7 @@ var free =
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
         "capacity": "10",
+        "cargo_bike": "no",
         "covered": "no",
         "fee": "no",
         "operator": "Ajuntament de Dénia"
@@ -997,6 +998,7 @@ var free =
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
         "capacity": "12",
+        "cargo_bike": "no",
         "covered": "no",
         "operator": "Ajuntament de Dénia"
       },
@@ -1881,6 +1883,7 @@ var free =
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
         "capacity": "6",
+        "cargo_bike": "no",
         "covered": "no",
         "operator": "Ajuntament de Dénia"
       },
@@ -2114,6 +2117,9 @@ var free =
         "@id": "node/9787494376",
         "access": "yes",
         "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "6",
+        "covered": "no",
         "operator": "Ajuntament de Dénia"
       },
       "geometry": {
@@ -2305,7 +2311,9 @@ var free =
       "properties": {
         "@id": "node/10129422707",
         "amenity": "bicycle_parking",
-        "bicycle_parking": "stands"
+        "bicycle_parking": "stands",
+        "capacity": "8",
+        "covered": "no"
       },
       "geometry": {
         "type": "Point",
@@ -2376,6 +2384,97 @@ var free =
         ]
       },
       "id": "node/10237976804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10289898123",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "covered": "no",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1135227,
+          38.8446117
+        ]
+      },
+      "id": "node/10289898123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10291113736",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.12109,
+          38.839751
+        ]
+      },
+      "id": "node/10291113736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10291174173",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1212918,
+          38.8390488
+        ]
+      },
+      "id": "node/10291174173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10300617893",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "6",
+        "cargo_bike": "no",
+        "covered": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1087632,
+          38.8430768
+        ]
+      },
+      "id": "node/10300617893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10300647383",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "5",
+        "covered": "yes",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1099712,
+          38.8431237
+        ]
+      },
+      "id": "node/10300647383"
     }
   ]
 }

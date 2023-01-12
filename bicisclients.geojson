@@ -3,7 +3,7 @@ var paid =
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2022-12-10T03:19:38Z",
+  "timestamp": "2023-01-12T15:55:53Z",
   "features": [
     {
       "type": "Feature",
@@ -114,6 +114,7 @@ var paid =
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
         "capacity": "10",
+        "cargo_bike": "no",
         "covered": "yes",
         "fee": "no",
         "operator": "Decathlon",
@@ -406,6 +407,7 @@ var paid =
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
         "capacity": "6",
+        "cargo_bike": "no",
         "covered": "no",
         "fee": "no"
       },
@@ -424,6 +426,9 @@ var paid =
         "@id": "node/10189371565",
         "access": "customers",
         "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "10",
+        "cargo_bike": "no",
         "covered": "yes",
         "fee": "no",
         "operator": "masymas"
@@ -444,6 +449,7 @@ var paid =
         "access": "customers",
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
+        "capacity": "8",
         "covered": "yes",
         "fee": "no",
         "operator": "LIDL"
@@ -496,6 +502,23 @@ var paid =
         ]
       },
       "id": "node/10249206836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10289670360",
+        "access": "customers",
+        "amenity": "bicycle_parking",
+        "operator": "Leroy Merlin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0219539,
+          38.8161274
+        ]
+      },
+      "id": "node/10289670360"
     }
   ]
 }
