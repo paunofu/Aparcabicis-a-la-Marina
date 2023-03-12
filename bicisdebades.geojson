@@ -3,7 +3,7 @@ var free =
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2023-01-12T15:12:09Z",
+  "timestamp": "2023-03-12T22:58:35Z",
   "features": [
     {
       "type": "Feature",
@@ -47,6 +47,7 @@ var free =
         "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "floor",
+        "cargo_bike": "no",
         "covered": "no",
         "operator": "Ajuntament de Dénia"
       },
@@ -2002,6 +2003,7 @@ var free =
         "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
+        "capacity": "8",
         "covered": "no",
         "operator": "Ajuntament de Dénia"
       },
@@ -2475,6 +2477,21 @@ var free =
         ]
       },
       "id": "node/10300647383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10684151114",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.018247,
+          38.8288246
+        ]
+      },
+      "id": "node/10684151114"
     }
   ]
 }

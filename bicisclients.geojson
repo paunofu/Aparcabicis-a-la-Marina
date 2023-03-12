@@ -3,7 +3,7 @@ var paid =
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2023-01-12T15:55:53Z",
+  "timestamp": "2023-03-12T23:09:29Z",
   "features": [
     {
       "type": "Feature",
@@ -95,7 +95,7 @@ var paid =
         "bicycle_parking": "wall_loops",
         "capacity": "23",
         "covered": "no",
-        "operator": "Institut d'Eduació Secundària Sorts de la Mar"
+        "operator": "Institut d'Educació Secundària Sorts de la Mar"
       },
       "geometry": {
         "type": "Point",
@@ -257,6 +257,7 @@ var paid =
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
         "capacity": "2",
+        "cargo_bike": "no",
         "covered": "no",
         "fee": "no",
         "operator": "Farmàcia Nàutic"
@@ -287,6 +288,25 @@ var paid =
         ]
       },
       "id": "node/9695748583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9717903022",
+        "access": "private",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "covered": "yes",
+        "operator": "Col·legi Paidos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1023148,
+          38.8290415
+        ]
+      },
+      "id": "node/9717903022"
     },
     {
       "type": "Feature",
@@ -324,6 +344,26 @@ var paid =
         ]
       },
       "id": "node/9733299885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9740292286",
+        "access": "private",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "5",
+        "covered": "no",
+        "operator": "Col·legi d'Educació Infantil i Primària Montgó"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1036522,
+          38.834032
+        ]
+      },
+      "id": "node/9740292286"
     },
     {
       "type": "Feature",
