@@ -3,7 +3,7 @@ var free =
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2023-03-12T22:58:35Z",
+  "timestamp": "2023-04-09T00:05:39Z",
   "features": [
     {
       "type": "Feature",
@@ -755,7 +755,12 @@ var free =
         "@id": "node/9421719001",
         "access": "yes",
         "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "9",
+        "cargo_bike": "no",
+        "covered": "no",
         "fee": "no",
+        "image": "https://i.imgur.com/seUjxmm.jpg",
         "operator": "Ajuntament d'Ondara"
       },
       "geometry": {
@@ -2220,6 +2225,9 @@ var free =
         "@id": "node/9928290269",
         "access": "yes",
         "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "8",
+        "covered": "no",
         "fee": "no",
         "operator": "Ajuntament de Dénia"
       },
@@ -2492,6 +2500,70 @@ var free =
         ]
       },
       "id": "node/10684151114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10779518541",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "12",
+        "cargo_bike": "no",
+        "covered": "no",
+        "image": "https://i.imgur.com/9X3hj5U.jpg",
+        "operator": "Ajuntament de Dénia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0863825,
+          38.7987153
+        ]
+      },
+      "id": "node/10779518541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10791192430",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "cargo_bike": "yes",
+        "covered": "yes",
+        "fee": "no",
+        "operator": "Marina Salud",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0589797,
+          38.8332596
+        ]
+      },
+      "id": "node/10791192430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10796013765",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "cargo_bike": "no",
+        "covered": "no",
+        "operator": "Ajuntament de Beniarbeig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0016844,
+          38.8222671
+        ]
+      },
+      "id": "node/10796013765"
     }
   ]
 }

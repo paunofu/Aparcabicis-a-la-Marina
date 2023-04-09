@@ -3,7 +3,7 @@ var paid =
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2023-03-12T23:09:29Z",
+  "timestamp": "2023-04-09T00:18:48Z",
   "features": [
     {
       "type": "Feature",
@@ -135,6 +135,8 @@ var paid =
         "@id": "node/9420774686",
         "access": "customers",
         "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "covered": "no",
         "fee": "no",
         "operator": "Centre Comercial Portal de la Marina"
       },
@@ -490,6 +492,7 @@ var paid =
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
         "capacity": "8",
+        "cargo_bike": "no",
         "covered": "yes",
         "fee": "no",
         "operator": "LIDL"
