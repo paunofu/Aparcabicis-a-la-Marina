@@ -1,9 +1,9 @@
 var paid =
 {
   "type": "FeatureCollection",
-  "generator": "overpass-ide",
+  "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2023-04-09T00:18:48Z",
+  "timestamp": "2025-01-22T18:29:45Z",
   "features": [
     {
       "type": "Feature",
@@ -123,8 +123,8 @@ var paid =
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.018028,
-          38.8186253
+          0.0181129,
+          38.8185768
         ]
       },
       "id": "node/9420685616"
@@ -294,25 +294,6 @@ var paid =
     {
       "type": "Feature",
       "properties": {
-        "@id": "node/9717903022",
-        "access": "private",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "wall_loops",
-        "covered": "yes",
-        "operator": "Col·legi Paidos"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.1023148,
-          38.8290415
-        ]
-      },
-      "id": "node/9717903022"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "node/9731113907",
         "access": "customers",
         "amenity": "bicycle_parking",
@@ -346,26 +327,6 @@ var paid =
         ]
       },
       "id": "node/9733299885"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "node/9740292286",
-        "access": "private",
-        "amenity": "bicycle_parking",
-        "bicycle_parking": "wall_loops",
-        "capacity": "5",
-        "covered": "no",
-        "operator": "Col·legi d'Educació Infantil i Primària Montgó"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.1036522,
-          38.834032
-        ]
-      },
-      "id": "node/9740292286"
     },
     {
       "type": "Feature",
@@ -535,7 +496,7 @@ var paid =
         "bicycle_parking": "stands",
         "capacity": "6",
         "covered": "no",
-        "image": "https://i.imgur.com/u9zXOrY.jpg"
+        "panoramax": "67562bc4-0699-48cf-b89b-376a31cfe75a"
       },
       "geometry": {
         "type": "Point",
@@ -552,6 +513,7 @@ var paid =
         "@id": "node/10289670360",
         "access": "customers",
         "amenity": "bicycle_parking",
+        "covered": "no",
         "operator": "Leroy Merlin"
       },
       "geometry": {

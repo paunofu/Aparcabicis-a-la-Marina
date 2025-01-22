@@ -1,9 +1,9 @@
 var free =
 {
   "type": "FeatureCollection",
-  "generator": "overpass-ide",
+  "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2023-04-09T00:05:39Z",
+  "timestamp": "2025-01-22T18:28:41Z",
   "features": [
     {
       "type": "Feature",
@@ -193,7 +193,8 @@ var free =
       "type": "Feature",
       "properties": {
         "@id": "node/4983806135",
-        "amenity": "bicycle_parking"
+        "amenity": "bicycle_parking",
+        "survey:date": "2023-12-04"
       },
       "geometry": {
         "type": "Point",
@@ -225,6 +226,7 @@ var free =
         "@id": "node/4984980921",
         "access": "yes",
         "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
         "capacity": "12",
         "covered": "no",
         "operator": "Ajuntament de Dénia"
@@ -760,8 +762,8 @@ var free =
         "cargo_bike": "no",
         "covered": "no",
         "fee": "no",
-        "image": "https://i.imgur.com/seUjxmm.jpg",
-        "operator": "Ajuntament d'Ondara"
+        "operator": "Ajuntament d'Ondara",
+        "panoramax": "f1f62eb4-1aa2-46fb-ad59-94147985dd9e"
       },
       "geometry": {
         "type": "Point",
@@ -822,6 +824,7 @@ var free =
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
         "capacity": "6",
+        "check_date:fee": "2023-08-22",
         "covered": "no",
         "fee": "no",
         "indoor": "no",
@@ -864,6 +867,7 @@ var free =
         "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "wall_loops",
+        "capacity": "6",
         "covered": "no",
         "fee": "no",
         "operator": "Ajuntament de Castell de Castells"
@@ -924,6 +928,7 @@ var free =
         "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
+        "capacity": "8",
         "covered": "no",
         "operator": "Ajuntament de Dénia"
       },
@@ -1147,6 +1152,7 @@ var free =
         "bicycle_parking": "stands",
         "capacity": "12",
         "covered": "no",
+        "fee": "no",
         "operator": "Ajuntament de Dénia"
       },
       "geometry": {
@@ -1331,6 +1337,7 @@ var free =
         "bicycle_parking": "stands",
         "capacity": "12",
         "covered": "no",
+        "fee": "no",
         "operator": "Ajuntament de Dénia"
       },
       "geometry": {
@@ -1767,7 +1774,8 @@ var free =
         "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
-        "capacity": "10",
+        "capacity": "18",
+        "cargo_bike": "no",
         "covered": "no",
         "operator": "Ajuntament de Dénia"
       },
@@ -2044,6 +2052,7 @@ var free =
         "@id": "node/9772670447",
         "access": "yes",
         "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
         "capacity": "12",
         "covered": "no",
         "fee": "no",
@@ -2086,8 +2095,11 @@ var free =
         "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
+        "capacity": "10",
+        "cargo_bike": "no",
         "covered": "no",
-        "operator": "Ajuntament de Dénia"
+        "operator": "Ajuntament de Dénia",
+        "panoramax": "9e799a49-8664-4ada-8ef3-7b3d5ee289d6"
       },
       "geometry": {
         "type": "Point",
@@ -2320,10 +2332,13 @@ var free =
       "type": "Feature",
       "properties": {
         "@id": "node/10129422707",
+        "access": "yes",
         "amenity": "bicycle_parking",
         "bicycle_parking": "stands",
         "capacity": "8",
-        "covered": "no"
+        "cargo_bike": "no",
+        "covered": "no",
+        "operator": "Ajuntament de Dénia"
       },
       "geometry": {
         "type": "Point",
@@ -2490,13 +2505,18 @@ var free =
       "type": "Feature",
       "properties": {
         "@id": "node/10684151114",
-        "amenity": "bicycle_parking"
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "6",
+        "cargo_bike": "no",
+        "covered": "no"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.018247,
-          38.8288246
+          0.0183804,
+          38.8288488
         ]
       },
       "id": "node/10684151114"
@@ -2511,8 +2531,8 @@ var free =
         "capacity": "12",
         "cargo_bike": "no",
         "covered": "no",
-        "image": "https://i.imgur.com/9X3hj5U.jpg",
-        "operator": "Ajuntament de Dénia"
+        "operator": "Ajuntament de Dénia",
+        "panoramax": "259d99d4-6610-4820-853b-8a1b849d7a30"
       },
       "geometry": {
         "type": "Point",
@@ -2533,8 +2553,11 @@ var free =
         "cargo_bike": "yes",
         "covered": "yes",
         "fee": "no",
-        "operator": "Marina Salud",
-        "operator:type": "private"
+        "operator": "Generalitat Valenciana",
+        "operator:2009--2024-02-01": "Marina Salud",
+        "operator:type": "public",
+        "operator:type:2009--2024-02-01": "private",
+        "operator:wikidata": "Q2477285"
       },
       "geometry": {
         "type": "Point",
@@ -2564,6 +2587,378 @@ var free =
         ]
       },
       "id": "node/10796013765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10895098967",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament d'Orba",
+        "supervised": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0619297,
+          38.7816791
+        ]
+      },
+      "id": "node/10895098967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10895098968",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament d'Orba",
+        "supervised": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.062211,
+          38.7820494
+        ]
+      },
+      "id": "node/10895098968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11297513040",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "3",
+        "cargo_bike": "no",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0219085,
+          38.8222504
+        ]
+      },
+      "id": "node/11297513040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11394850317",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "survey:date": "2023-12-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1806941,
+          38.7931398
+        ]
+      },
+      "id": "node/11394850317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11396003253",
+        "amenity": "bicycle_parking",
+        "survey:date": "2023-12-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2062581,
+          38.7619766
+        ]
+      },
+      "id": "node/11396003253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11398190620",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "6",
+        "covered": "no",
+        "survey:date": "2023-12-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1889979,
+          38.7774723
+        ]
+      },
+      "id": "node/11398190620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11398190624",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "6",
+        "covered": "no",
+        "fee": "no",
+        "survey:date": "2023-12-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1870342,
+          38.7800927
+        ]
+      },
+      "id": "node/11398190624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11502550647",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "cargo_bike": "no",
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament d'Ondara",
+        "supervised": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0190113,
+          38.8176645
+        ]
+      },
+      "id": "node/11502550647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11502553128",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "cargo_bike": "no",
+        "covered": "no",
+        "fee": "no",
+        "operator": "Ajuntament d'Ondara",
+        "supervised": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0190093,
+          38.817513
+        ]
+      },
+      "id": "node/11502553128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11533980428",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "cargo_bike": "no",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0148651,
+          38.8202043
+        ]
+      },
+      "id": "node/11533980428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11533989675",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0170616,
+          38.8187389
+        ]
+      },
+      "id": "node/11533989675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11949621696",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "8",
+        "cargo_bike": "no",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1062796,
+          38.8398407
+        ]
+      },
+      "id": "node/11949621696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11980436250",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "8",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1144516,
+          38.8336228
+        ]
+      },
+      "id": "node/11980436250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12078284176",
+        "amenity": "bicycle_parking",
+        "capacity": "6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1215433,
+          38.8349674
+        ]
+      },
+      "id": "node/12078284176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12078284178",
+        "amenity": "bicycle_parking",
+        "capacity": "6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1221612,
+          38.834515
+        ]
+      },
+      "id": "node/12078284178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12078284179",
+        "amenity": "bicycle_parking",
+        "capacity": "6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1206357,
+          38.8356059
+        ]
+      },
+      "id": "node/12078284179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12121930198",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "8",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1081371,
+          38.8372012
+        ]
+      },
+      "id": "node/12121930198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12121935760",
+        "access": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "12",
+        "covered": "no",
+        "operator": "Ajuntament de Dénia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1079099,
+          38.8375706
+        ]
+      },
+      "id": "node/12121935760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12136120601",
+        "amenity": "bicycle_parking",
+        "opening_hours": "24/7",
+        "operator": "Aldi",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0856002,
+          38.8374196
+        ]
+      },
+      "id": "node/12136120601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12140544101",
+        "amenity": "bicycle_parking",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0913396,
+          38.842024
+        ]
+      },
+      "id": "node/12140544101"
     }
   ]
 }
